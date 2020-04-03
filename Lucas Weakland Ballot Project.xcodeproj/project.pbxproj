@@ -15,6 +15,12 @@
 		5016F4DA241EB4280020FA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5016F4D8241EB4280020FA0A /* LaunchScreen.storyboard */; };
 		5016F4E5241EB4290020FA0A /* Lucas_Weakland_Ballot_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5016F4E4241EB4290020FA0A /* Lucas_Weakland_Ballot_ProjectTests.swift */; };
 		5016F4F0241EB4290020FA0A /* Lucas_Weakland_Ballot_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5016F4EF241EB4290020FA0A /* Lucas_Weakland_Ballot_ProjectUITests.swift */; };
+		5016F4FE241EB8B10020FA0A /* Management TabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5016F4FD241EB8B10020FA0A /* Management TabVC.swift */; };
+		5016F500241EB8EF0020FA0A /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5016F4FF241EB8EF0020FA0A /* IntroVC.swift */; };
+		5016F502241EB9040020FA0A /* VoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5016F501241EB9040020FA0A /* VoteVC.swift */; };
+		5016F504241EB9180020FA0A /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5016F503241EB9180020FA0A /* ResultsVC.swift */; };
+		5016F506241FEC420020FA0A /* TabManageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5016F505241FEC420020FA0A /* TabManageVC.swift */; };
+		5016F508241FEC7F0020FA0A /* TabBarManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5016F507241FEC7F0020FA0A /* TabBarManage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		5016F4EB241EB4290020FA0A /* Lucas Weakland Ballot ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucas Weakland Ballot ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5016F4EF241EB4290020FA0A /* Lucas_Weakland_Ballot_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucas_Weakland_Ballot_ProjectUITests.swift; sourceTree = "<group>"; };
 		5016F4F1241EB4290020FA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5016F4FD241EB8B10020FA0A /* Management TabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Management TabVC.swift"; sourceTree = "<group>"; };
+		5016F4FF241EB8EF0020FA0A /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		5016F501241EB9040020FA0A /* VoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteVC.swift; sourceTree = "<group>"; };
+		5016F503241EB9180020FA0A /* ResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsVC.swift; sourceTree = "<group>"; };
+		5016F505241FEC420020FA0A /* TabManageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManageVC.swift; sourceTree = "<group>"; };
+		5016F507241FEC7F0020FA0A /* TabBarManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarManage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				5016F4CF241EB4260020FA0A /* SceneDelegate.swift */,
 				5016F4D1241EB4260020FA0A /* ViewController.swift */,
 				5016F4D3241EB4260020FA0A /* Main.storyboard */,
+				5016F507241FEC7F0020FA0A /* TabBarManage.swift */,
+				5016F505241FEC420020FA0A /* TabManageVC.swift */,
+				5016F503241EB9180020FA0A /* ResultsVC.swift */,
+				5016F501241EB9040020FA0A /* VoteVC.swift */,
+				5016F4FF241EB8EF0020FA0A /* IntroVC.swift */,
+				5016F4FD241EB8B10020FA0A /* Management TabVC.swift */,
 				5016F4D6241EB4280020FA0A /* Assets.xcassets */,
 				5016F4D8241EB4280020FA0A /* LaunchScreen.storyboard */,
 				5016F4DB241EB4280020FA0A /* Info.plist */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5016F504241EB9180020FA0A /* ResultsVC.swift in Sources */,
+				5016F500241EB8EF0020FA0A /* IntroVC.swift in Sources */,
 				5016F4D2241EB4260020FA0A /* ViewController.swift in Sources */,
+				5016F502241EB9040020FA0A /* VoteVC.swift in Sources */,
 				5016F4CE241EB4260020FA0A /* AppDelegate.swift in Sources */,
+				5016F506241FEC420020FA0A /* TabManageVC.swift in Sources */,
+				5016F508241FEC7F0020FA0A /* TabBarManage.swift in Sources */,
+				5016F4FE241EB8B10020FA0A /* Management TabVC.swift in Sources */,
 				5016F4D0241EB4260020FA0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
